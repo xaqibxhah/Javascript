@@ -1,0 +1,44 @@
+https://meet.google.com/yrm-vito-nnt
+
+
+
+Assignment Instructions:
+Determine Eligibility for Voting:
+
+Create a function named canVote that takes a single parameter age and returns a message based on the following conditions:
+
+If age is 18 or older, return "You are eligible to vote."
+If age is less than 18, return "You are not eligible to vote yet."
+Check Temperature and Suggest Clothing:
+
+Create a function named suggestClothing that takes a single parameter temperature (in degrees Celsius) and returns a message based on the following conditions:
+
+If temperature is less than 0, return "It's freezing. Wear a heavy coat and boots."
+If temperature is between 0 and 15 (inclusive), return "It's cold. Wear a jacket."
+If temperature is between 16 and 25 (inclusive), return "It's mild. A sweater should be fine."
+If temperature is above 25, return "It's warm. Wear light clothing."
+Grade Evaluation:
+
+Create a function named evaluateGrade that takes a single parameter score (a number between 0 and 100) and returns a letter grade based on the following conditions:
+
+If score is 90 or higher, return "A"
+If score is between 80 and 89 (inclusive), return "B"
+If score is between 70 and 79 (inclusive), return "C"
+If score is between 60 and 69 (inclusive), return "D"
+If score is below 60, return "F"
+Check for Leap Year:
+
+Create a function named isLeapYear that takes a single parameter year and returns true if the year is a leap year and false otherwise. A year is a leap year if:
+
+It is divisible by 4.
+If it is also divisible by 100, it must be divisible by 400 to be a leap year.
+
+
+
+
+Create a function named greet that function assignment
+
+1)takes a single parameter, name, and returns a string that greets the person. For example, if the input is "john", the function should return "Hello, john!"
+2)Create a function named sum that takes two parameters, a and b, and returns their sum
+3) Create a function named multiply that takes two parameters, x and y. If the second parameter is not provided, it should default to 1. The function should return the product of x and y
+4) Create a function named rectangleArea that takes two parameters, width and height, and returns the area of the rectangle.

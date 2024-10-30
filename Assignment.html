@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT ASSIGNMENT</title>
+</head>
+<body>
+
+    <Script>
+        // ASSIGNMENT INSTRUCTION
+
+       
+
+        // function first1(){
+        //   return "hello java";
+        // }
+        // console.log(first1());
+    
+        // function temperature(){
+        // if(temperature = 0)
+        //     return"It's freezing. Wear a heavy coat and boots";
+        // }
+        // console.log(temperature("It's freezing. Wear a heavy coat and boots"));
+
+        // if(temperature <= 16){
+        //     return"It's Cold. Wear a jacket"
+        // }
+        // console.log(temperature())
+
+        // if(temperature <= 25){
+        //     return"It's mild. A sweater should be fine" 
+        // }
+        // console.log(temperature())
+
+        // if(temperature >= 25){
+        //     return"It's warm. Wear light clothing"
+        // }
+        // console.log(temperature())
+
+
+         // 1 DETERMINE ELIGIBILITY FOR VOTING
+
+        //  let age =20;
+
+        // if(age >= 18){
+        //     console.log("you are vote for eigiable");
+        // }
+        // else{
+        //     console.log("you are vote not for eigiable");
+        // }
+
+        // 2 CHECK TEMPERATURE AND SUGGEST CLOTHING
+
+        let temprature = 30;
+
+
+        if (temprature > 25) {
+            console.log("It's warm. Wear light clothing...");
+        }
+        else if (temprature > 16) {
+            console.log("It's mild. A sweater should be fine.");
+        }
+        else if (temprature > 10) {
+            console.log("It's cold. Wear a jacket.");
+        }
+
+        else {
+            console.log("It's freezing. Wear a heavy coat and boots.");
+        }
+
+        // Create a function named evaluateGrade that takes a single parameter score (a number between 0 and 100) and returns a letter grade based on the following conditions:
+
+        let score =90;
+
+        if (score > 90){
+            console.log("A")
+        }
+
+        else if (score > 80){
+            console.log("B")
+        }
+
+        else if (score > 70){
+            console.log("C")
+        }
+
+        else if (score > 60){
+            console.log("D")
+        }
+
+        else{
+            console.log("FAIL")
+        }
+
+    </Script>
+
+    <script>
+        function suggestclothing(temprature){
+if(temprature<0){
+    return "Its freezing waer heavy coats and boats";
+} 
+else if( temprature >=0 && temprature <=15){
+    return "its cold wear a jacket";
+}
+else if (temprature >=16 && temprature <=25){
+    return "its mild a sweater shou;d be fine";
+}
+    else{ "its warm wear light clothing"};
+}
+console.log(suggestclothing(13));
+
+
+
+function evaluategrade(score){
+if(score>=90){
+    return "A";
+}
+else if (score >=80 && score <89){
+    return "B";
+}
+else if (score >=70 && score <79){
+    return "C";
+}
+else if (score >=60 && score <69){
+    return "D";
+}
+else {"F"};
+}
+console.log(evaluategrade(75));
+
+function myfunction(){
+return"hello john"
+}
+console.log(myfunction());
+
+
+function multiply(x,y=1){
+ return x*y
+}
+console.log(multiply(1));
+
+
+
+function sum(a,b){
+return a+b;
+}
+console.log(sum(20,30));
+
+
+function rectanglearea(width,height){
+return width*height;
+}
+console.log(rectanglearea(100,200));
+</script>
+    </script>
+    
+</body>
+</html>
